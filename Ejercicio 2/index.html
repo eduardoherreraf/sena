@@ -38,21 +38,63 @@
             </tr>
             <tr>
                 <td>
-                    dato 1
+                    dato 1.1
                 </td>
                 <td>
-                    dato 2
+                    dato 2.1
                 </td>
             </tr>
             <tr>
                 <td>
-                    dato 1
+                    dato 1.2
                 </td>
                 <td>
-                    dato 2
+                    dato 2.2
                 </td>
             </tr>
         </table>
+        <h2>
+            Crear un Menú desplegable
+        </h2>
+        <label for="cars">
+            Escoja un carro:
+        </label>
+        <select name="carros" id="carros">
+            <option value="Chevrolet">
+                Chevrolet
+            </option>
+            <option value="Renault">
+                Renault
+            </option>
+            <option value="Mazda">
+                Mazda
+            </option>
+            <option value="Ford">
+                Ford
+            </option>
+        </select>
+        <h2>
+            crear un Formulario
+        </h2>
+        <form name="Formulario1" action="/actionRecursoServidor.php" method="post">
+            <fieldset>
+                <legend>
+                    Persona
+                </legend>
+                <label for="Nombre">
+                    Nombre:
+                </label>
+                <input type="text" id="Nombre" name="Nombre" value="Eduardo Herrera Forero" size ="30"/>
+                <br/>
+                <label for="Email">
+                    Email:
+                </label>
+                <input type="text" id="Email" name="Email" value="xxx@xxx.xxx" size ="30"/>
+                <br/>
+                <br/>
+                <input type="submit" value="Enviar"/>
+            </fieldset>
+        </form>
         <footer style="text-align: center;">
             <a href="https://www.facebook.com/" target="_blank">
                 <img src="Images/facebook.png" alt="Facebook" height="32"/>
